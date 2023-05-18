@@ -1,0 +1,18 @@
+{
+    "name": "revisioncoding/parallel-processing",
+    "authors": [
+        {
+            "name": "RevisionCoding"
+        }
+    ],
+    "require":
+    {
+        "amphp/parallel": "^2.1",
+        "amphp/amp": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "tasks\\": "tasks"
+        }
+    }
+}
